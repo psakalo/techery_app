@@ -1,8 +1,8 @@
 import thunk from 'redux-thunk';
 import configureStore from 'redux-mock-store'
 
-var mock = (function() {
-    var store = {};
+const mock = (function() {
+    let store = {};
     return {
         getItem: function(key) {
             return store[key];
@@ -18,4 +18,4 @@ var mock = (function() {
 Object.defineProperty(window, 'sessionStorage', { value: mock });
 
 // Setup mock store for redux
-global.mockStore = configureStore([thunk])
+global.mockStore = configureStore([thunk]);

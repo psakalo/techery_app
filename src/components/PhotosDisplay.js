@@ -44,7 +44,7 @@ export default class PhotosDisplay extends Component {
         });
     };
 
-    onPhotoPressed = (photoIndex, e) => {
+    onPhotoPressed = (photoIndex) => {
         let newIndices;
         if (this.state.selectedIndices.includes(photoIndex)) {
             newIndices = this.state.selectedIndices.filter(index => index !== photoIndex);

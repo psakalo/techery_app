@@ -17,7 +17,7 @@ export default () => {
         applyMiddleware(
             thunk
         )
-    )
+    );
 
     // Save favourites to localStorage
     store.subscribe(() => {

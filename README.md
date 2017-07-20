@@ -10,7 +10,6 @@ npm start
 ```
 
 Unfortunately, im not yet familiar with TypeScript, so didn't use it. If it's absolutely required, i will get a touch on it.
-С TypeScript к сожалению не знаком, по этому не стал пока его трогать. Если это совсем обязательно, разберусь, перепишу.
 
 I started writing tests, but 3 days elapsed, so i stopped at this coverage:
 

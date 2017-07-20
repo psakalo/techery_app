@@ -1,16 +1,18 @@
 ### Techery test app
 
-Демо [тут](https://psakalo.github.io/techery_app/)
-Могут быть проблемы с навигацией, из-за того что приложение не в корне, локально все ок.
+Demo [here](https://psakalo.github.io/techery_app/)
 
-Запуск локально
+There can be some problems with navigation in demo, because of app deployed not to the root. Locally everything is ok.
+
+To launch locally
 ```sh
 npm start
 ```
 
+Unfortunately, im not yet familiar with TypeScript, so didn't use it. If it's absolutely required, i will get a touch on it.
 С TypeScript к сожалению не знаком, по этому не стал пока его трогать. Если это совсем обязательно, разберусь, перепишу.
 
-Тесты писать начал, но 3 дня закончились, на текущий момент coverage такой:
+I started writing tests, but 3 days elapsed, so i stopped at this coverage:
 
 File                |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
 --------------------|----------|----------|----------|----------|----------------|
